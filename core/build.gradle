@@ -1,0 +1,12 @@
+dependencies {
+    api 'org.ow2.asm:asm:9.7'
+    api 'org.ow2.asm:asm-tree:9.7'
+    api 'org.ow2.asm:asm-commons:9.7'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+test {
+    useJUnitPlatform()
+}

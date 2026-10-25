@@ -1,0 +1,8 @@
+// NeoForge 接入层：需要 JDK 21 + NeoForge 21.1.x MDK 依赖才能编译。
+// 沙箱默认关闭（gradle.properties 里 neofobric.buildNeoforge=false）；
+// 在本地 NeoForge 开发环境开启后，依赖 NeoForge 提供的 moddev 插件与 libraries。
+// 这里给出源码，接入接口名以 NeoForge 21.1.x 为准（net.neoforged.neoforgespi.launch.ITransformationService）。
+dependencies {
+    implementation project(':core')
+    implementation project(':bridge-fabric')
+}

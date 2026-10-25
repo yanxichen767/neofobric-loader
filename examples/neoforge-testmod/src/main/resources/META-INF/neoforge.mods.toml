@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="neoforge_testmod"
+version="1.0.0"
+displayName="Neofobric NeoForge Test Mod"
+
+[[dependencies]]
+modId="minecraft"
+type="required"

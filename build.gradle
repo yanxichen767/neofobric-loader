@@ -1,0 +1,31 @@
+plugins {
+    id 'java-library'
+}
+
+group = 'dev.neofobric'
+version = '0.1.0'
+
+subprojects {
+    apply plugin: 'java-library'
+
+    java {
+        // 核心逻辑保持低版本兼容，便于在任何 MC 开发环境嵌入
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    repositories {
+        mavenCentral()
+        maven { url = 'https://maven.neoforged.net/releases' }
+        maven { url = 'https://libraries.minecraft.net' }
+    }
+
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
+    }
+}
+
+// 聚合所有模块源码的 jvm 资源，便于 ide 与命令行统一索引
+task sourceJars(type: Jar) {
+    archiveClassifier.set('sources')
+}

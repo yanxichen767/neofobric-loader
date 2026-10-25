@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "fabric_testmod",
+  "version": "1.0.0",
+  "name": "Neofobric Fabric Test Mod",
+  "entrypoints": {
+    "main": [
+      "dev.neofobric.test.fabric.FabricTestEntry"
+    ]
+  }
+}

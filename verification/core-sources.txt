@@ -1,0 +1,15 @@
+/home/user/Doubao/chats/38449228023946498/neofobric-loader/core/src/main/java/dev/neofobric/core/discovery/ModScanner.java
+/home/user/Doubao/chats/38449228023946498/neofobric-loader/core/src/main/java/dev/neofobric/core/event/EventBus.java
+/home/user/Doubao/chats/38449228023946498/neofobric-loader/core/src/main/java/dev/neofobric/core/launch/LauncherMain.java
+/home/user/Doubao/chats/38449228023946498/neofobric-loader/core/src/main/java/dev/neofobric/core/load/IsolatedModClassLoader.java
+/home/user/Doubao/chats/38449228023946498/neofobric-loader/core/src/main/java/dev/neofobric/core/metadata/MetadataParser.java
+/home/user/Doubao/chats/38449228023946498/neofobric-loader/core/src/main/java/dev/neofobric/core/metadata/MiniJson.java
+/home/user/Doubao/chats/38449228023946498/neofobric-loader/core/src/main/java/dev/neofobric/core/metadata/MiniToml.java
+/home/user/Doubao/chats/38449228023946498/neofobric-loader/core/src/main/java/dev/neofobric/core/metadata/ModMetadata.java
+/home/user/Doubao/chats/38449228023946498/neofobric-loader/core/src/main/java/dev/neofobric/core/mods/ModCandidate.java
+/home/user/Doubao/chats/38449228023946498/neofobric-loader/core/src/main/java/dev/neofobric/core/mods/ModType.java
+/home/user/Doubao/chats/38449228023946498/neofobric-loader/core/src/main/java/dev/neofobric/core/runtime/ModContainer.java
+/home/user/Doubao/chats/38449228023946498/neofobric-loader/core/src/main/java/dev/neofobric/core/runtime/ModManager.java
+/home/user/Doubao/chats/38449228023946498/neofobric-loader/core/src/main/java/dev/neofobric/core/transform/ClassTransformer.java
+/home/user/Doubao/chats/38449228023946498/neofobric-loader/core/src/main/java/dev/neofobric/core/transform/TransformPipeline.java
+/home/user/Doubao/chats/38449228023946498/neofobric-loader/core/src/main/java/dev/neofobric/core/transform/Transformers.java
